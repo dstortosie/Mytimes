@@ -34,15 +34,10 @@
 
 .column {
   display: flex;
-  border: solid 1px black;
-  margin-top: 5px;
-  margin-left: 5px;
-  
 }
 
 .column .large {
   width: 630px;
-  border: solid 1px black;
   margin-right: 20px;
   margin-top: 20px;
   display:flex;
@@ -51,7 +46,6 @@
 
 .column .medium {
   width: 300px;
-  border: solid 1px black;
   margin-right: 20px;
   margin-top: 20px;
   display: flex;
@@ -60,9 +54,77 @@
 
 .column .small {
   width: 240px;
-  border: solid 1px black;
   margin-right: 20px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+}
+
+.stories {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.short {
+  width: 290px;
+  margin: 5px;
+}
+
+
+#mother {
+  background-image: url("../images/img-story-main.png");
+  display:flex;
+}
+
+#earth {
+  background-image: url("../images/img-story-2.png");
+  height: 300px;
+  text-align: center;
+}
+
+#research {
+  background-image: url("../images/img-story-3.png");
+  height: 300px;
+  text-align: center;
+}
+
+#cat {
+  background-image: url("../images/img-story-1.png");
+  text-align: center;
+}
+
+.photo {
+  color:white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.large p {
+  font-size: 17px;
+  color: black;
+}
+
+.medium p{
+  font-size: 17px
+  color:black;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 .small {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bites {
+  background-color: WhiteSmoke;
+  font-family:Verdana;
+  font-size: 12px;
+  color:DimGray;
+  margin: 0px;
+  border-bottom: solid 1px black;
 }
